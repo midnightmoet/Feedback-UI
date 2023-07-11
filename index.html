@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feedback UI</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container" id="container">
-        <h1 class="heading">Feedback UI</h1>
-        <div class="ratings-container" id="ratings-container">
-            <div class="rating">
-                <img src="https://cdn-icons-png.flaticon.com/512/166/166527.png" alt="unhappy">
-                <small>Unhappy</small>
-            </div>
-            <div class="rating">
-                <img src="https://cdn-icons-png.flaticon.com/512/1791/1791385.png" alt="neutral">
-                <small>Neutral</small>
-            </div>
-            <div class="rating">
-                <img src="https://cdn-icons-png.flaticon.com/512/166/166538.png" alt="happy">
-                <small>Happy</small>
-            </div>
+      <h1 class="heading">Feedback UI</h1>
+      <div class="ratings-container" id="ratings-container">
+        <div class="rating">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/166/166527.png"
+            alt="unhappy"
+          />
+          <small>Unhappy</small>
         </div>
-        <button class="btn" id="btn">Send Review</button>
+        <div class="rating">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1791/1791385.png"
+            alt="neutral"
+          />
+          <small>Neutral</small>
+        </div>
+        <div class="rating">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/166/166538.png"
+            alt="happy"
+          />
+          <small>Happy</small>
+        </div>
+      </div>
+      <div class="thanks-container" id="thanks-container">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+          alt="thanks"
+        />
+        <h2>Thanks for your feedback!</h2>
+        <p>We are working hard to improve our product based on your feedback</p>
+      </div>
+      <button class="btn" id="btn">Send Review</button>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
